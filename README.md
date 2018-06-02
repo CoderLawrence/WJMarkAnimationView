@@ -22,7 +22,7 @@ pod 'CLTickAnimationView'
 
 ## Author
 
-CoderLawrence, zengqingsong@lizhi.fm
+CoderLawrence, 791785648@qq.com
 
 ## License
 
