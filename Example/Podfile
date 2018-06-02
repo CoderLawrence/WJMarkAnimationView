@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CLTickAnimationView_Example' do
+  pod 'CLTickAnimationView', :path => '../'
+
+  target 'CLTickAnimationView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
