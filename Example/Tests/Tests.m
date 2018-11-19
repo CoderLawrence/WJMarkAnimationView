@@ -1,8 +1,8 @@
 //
-//  CLTickAnimationViewTests.m
-//  CLTickAnimationViewTests
+//  WJMarkAnimationViewTests.m
+//  WJMarkAnimationViewTests
 //
-//  Created by CoderLawrence on 06/02/2018.
+//  Created by CoderLawrence on 11/19/2018.
 //  Copyright (c) 2018 CoderLawrence. All rights reserved.
 //
 

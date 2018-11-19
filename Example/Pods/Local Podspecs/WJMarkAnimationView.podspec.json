@@ -1,0 +1,27 @@
+{
+  "name": "WJMarkAnimationView",
+  "version": "0.1.0",
+  "summary": "一个简单易用好看的打勾动画UI控件",
+  "description": "一个简单易用好看的打勾动画UI控件",
+  "homepage": "https://github.com/CoderLawrence/WJMarkAnimationView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "CoderLawrence": "791785648@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/CoderLawrence/WJMarkAnimationView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WJMarkAnimationView/Classes/**/*",
+  "public_header_files": "WJMarkAnimationView/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
+}

@@ -1,0 +1,16 @@
+PODS:
+  - WJMarkAnimationView (0.1.0)
+
+DEPENDENCIES:
+  - WJMarkAnimationView (from `../`)
+
+EXTERNAL SOURCES:
+  WJMarkAnimationView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WJMarkAnimationView: 5e6e5cf72c6b267fc2dfa7dd4cf00adc0bc3dacd
+
+PODFILE CHECKSUM: 14f4a0209eaeafbf9d1374c9a92459b61249de95
+
+COCOAPODS: 1.5.3

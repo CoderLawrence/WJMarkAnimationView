@@ -1,9 +1,9 @@
-# CLTickAnimationView
+# WJMarkAnimationView
 
-[![CI Status](https://img.shields.io/travis/CoderLawrence/CLTickAnimationView.svg?style=flat)](https://travis-ci.org/CoderLawrence/CLTickAnimationView)
-[![Version](https://img.shields.io/cocoapods/v/CLTickAnimationView.svg?style=flat)](https://cocoapods.org/pods/CLTickAnimationView)
-[![License](https://img.shields.io/cocoapods/l/CLTickAnimationView.svg?style=flat)](https://cocoapods.org/pods/CLTickAnimationView)
-[![Platform](https://img.shields.io/cocoapods/p/CLTickAnimationView.svg?style=flat)](https://cocoapods.org/pods/CLTickAnimationView)
+[![CI Status](https://img.shields.io/travis/CoderLawrence/WJMarkAnimationView.svg?style=flat)](https://travis-ci.org/CoderLawrence/WJMarkAnimationView)
+[![Version](https://img.shields.io/cocoapods/v/WJMarkAnimationView.svg?style=flat)](https://cocoapods.org/pods/WJMarkAnimationView)
+[![License](https://img.shields.io/cocoapods/l/WJMarkAnimationView.svg?style=flat)](https://cocoapods.org/pods/WJMarkAnimationView)
+[![Platform](https://img.shields.io/cocoapods/p/WJMarkAnimationView.svg?style=flat)](https://cocoapods.org/pods/WJMarkAnimationView)
 
 ## Example
 
@@ -13,11 +13,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-CLTickAnimationView is available through [CocoaPods](https://cocoapods.org). To install
+WJMarkAnimationView is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'CLTickAnimationView'
+pod 'WJMarkAnimationView'
 ```
 
 ## Author
@@ -26,4 +26,4 @@ CoderLawrence, 791785648@qq.com
 
 ## License
 
-CLTickAnimationView is available under the MIT license. See the LICENSE file for more info.
+WJMarkAnimationView is available under the MIT license. See the LICENSE file for more info.

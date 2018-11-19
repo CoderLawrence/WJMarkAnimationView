@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F6A5A123DB2576B3F65490B6FEAD608 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		305FAEEC886374209AA97A7E9528C234 /* WJMarkAnimationView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F81CBB40E4202464D83AA57F2784511 /* WJMarkAnimationView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30EFD0648614C7670B06753A8A2B4A2F /* WJMarkAnimationView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4C84500629CBFAE95EC770092FF84 /* WJMarkAnimationView-dummy.m */; };
+		54ECFC9ACB330DDF70EDDF9937652657 /* WJMarkAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C4CAF65403837307EBA1349D40CEEA0 /* WJMarkAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57301D7DD9D00C0C4A737971ADAAA6EE /* Pods-WJMarkAnimationView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F01D8113F1F6B8EF718D3E8F2C8E15 /* Pods-WJMarkAnimationView_Example-dummy.m */; };
+		61B18DB85E5551B095C164C2536A8BDC /* WJMarkAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96ECE3475678A20BACA086D5370A889E /* WJMarkAnimationView.m */; };
+		6306EC70529863BF392C829F12FBA79E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		CCE41D426047AF3FDCBE23DB68E7D64D /* Pods-WJMarkAnimationView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BADEA5073EFB80FF50EEA6823D60C81 /* Pods-WJMarkAnimationView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7A66D7DA7E885DBF9A7EDB29F6C79E5 /* Pods-WJMarkAnimationView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420DF9404B3D03E36C7D637467ECA5C /* Pods-WJMarkAnimationView_Tests-dummy.m */; };
+		F5302715E2DF6B12221282F838A572E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		FA95436DF47EBA423593ECA11A19B589 /* Pods-WJMarkAnimationView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1660A8EECB7B2B936BE881702CC2F8E5 /* Pods-WJMarkAnimationView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE280EFA56C0E77FF16EB48743F2DA0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38716AFB50CF2C3EC5BE4AC5E47702DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 969EC6B7128ABD296008F69A1C6F8A9D;
+			remoteInfo = WJMarkAnimationView;
+		};
+		3A1BB131AD12E8E3282EAD7883273D75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E3DEE6404D13BB2318D39A20CA58B2F;
+			remoteInfo = "Pods-WJMarkAnimationView_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07A0EFE193F9716EABF43E5D725B4F4B /* Pods-WJMarkAnimationView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJMarkAnimationView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C047CFC951AD3694C653021FD9F316D /* Pods-WJMarkAnimationView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WJMarkAnimationView_Example.modulemap"; sourceTree = "<group>"; };
+		120356A5F7298029B01295B44E23F60D /* Pods-WJMarkAnimationView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJMarkAnimationView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1660A8EECB7B2B936BE881702CC2F8E5 /* Pods-WJMarkAnimationView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WJMarkAnimationView_Example-umbrella.h"; sourceTree = "<group>"; };
+		167B63BDA24C1C09489C3E4D10A0803C /* WJMarkAnimationView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJMarkAnimationView-prefix.pch"; sourceTree = "<group>"; };
+		18F01D8113F1F6B8EF718D3E8F2C8E15 /* Pods-WJMarkAnimationView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WJMarkAnimationView_Example-dummy.m"; sourceTree = "<group>"; };
+		275029E701ECD8F41DBFADD3E9F35679 /* Pods-WJMarkAnimationView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJMarkAnimationView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2C4CAF65403837307EBA1349D40CEEA0 /* WJMarkAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJMarkAnimationView.h; path = WJMarkAnimationView/Classes/WJMarkAnimationView.h; sourceTree = "<group>"; };
+		33121B5684B0376044264933644B29F5 /* WJMarkAnimationView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJMarkAnimationView.xcconfig; sourceTree = "<group>"; };
+		3F81CBB40E4202464D83AA57F2784511 /* WJMarkAnimationView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJMarkAnimationView-umbrella.h"; sourceTree = "<group>"; };
+		41CE101C3034966630BFD999B9FFDEBE /* Pods-WJMarkAnimationView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJMarkAnimationView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A39F7DDFB936C922A5C49F1F7AA595E /* Pods-WJMarkAnimationView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJMarkAnimationView_Example-resources.sh"; sourceTree = "<group>"; };
+		4CF4C84500629CBFAE95EC770092FF84 /* WJMarkAnimationView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJMarkAnimationView-dummy.m"; sourceTree = "<group>"; };
+		4DDD4081361C75106CF37A3CC23DD225 /* Pods-WJMarkAnimationView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJMarkAnimationView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F29C24FD0F851C2D55C55F16CBBA969 /* WJMarkAnimationView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WJMarkAnimationView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		601A2B3FF05424AC13846AB5DF288498 /* Pods-WJMarkAnimationView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJMarkAnimationView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8420DF9404B3D03E36C7D637467ECA5C /* Pods-WJMarkAnimationView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WJMarkAnimationView_Tests-dummy.m"; sourceTree = "<group>"; };
+		8B8D9077DF59D6EDF0D6428D96AF78E8 /* WJMarkAnimationView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WJMarkAnimationView.framework; path = WJMarkAnimationView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB436DA5F9650B8C872D1FDE9D0BCFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		92B8C6782318483608BE45B6A2B14FE9 /* Pods-WJMarkAnimationView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJMarkAnimationView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96ECE3475678A20BACA086D5370A889E /* WJMarkAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJMarkAnimationView.m; path = WJMarkAnimationView/Classes/WJMarkAnimationView.m; sourceTree = "<group>"; };
+		9BADEA5073EFB80FF50EEA6823D60C81 /* Pods-WJMarkAnimationView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WJMarkAnimationView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B056EA8492283B612816D719C87F77FC /* Pods_WJMarkAnimationView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WJMarkAnimationView_Example.framework; path = "Pods-WJMarkAnimationView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0487A054B81F4CB06D1A10A3194AD9 /* Pods-WJMarkAnimationView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJMarkAnimationView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CAC0E0D059E2515666A5034A532B4FCC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D250238073D13C1F0B601171574893FE /* Pods-WJMarkAnimationView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WJMarkAnimationView_Tests.modulemap"; sourceTree = "<group>"; };
+		D2B7BF20B718DA8AFAAE36B1AFFEA528 /* Pods-WJMarkAnimationView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJMarkAnimationView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D80A758622DBA1C9592DFBB4F3FF3DBD /* Pods_WJMarkAnimationView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WJMarkAnimationView_Tests.framework; path = "Pods-WJMarkAnimationView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6F1A322E4CC2550148D6B9A28E4653C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E9B5BA92EBCFC9C5B1F6E1C174521EB2 /* Pods-WJMarkAnimationView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJMarkAnimationView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F613853C68953E7DCA2626AEFB2134B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F698CCBCD5E3BACB1374A42D88631557 /* WJMarkAnimationView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WJMarkAnimationView.modulemap; sourceTree = "<group>"; };
+		FBABACE271A3B9D4F255339E3F22129C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFC094876F8E0AB9AC8342D6E6DD70FB /* Pods-WJMarkAnimationView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJMarkAnimationView_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		036593578066EACD7F73BB438B52192C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6A5A123DB2576B3F65490B6FEAD608 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27B574E2D3ED280C37C6489EA617A858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE280EFA56C0E77FF16EB48743F2DA0D /* Foundation.framework in Frameworks */,
+				F5302715E2DF6B12221282F838A572E4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C99706CCFCD1E4FAFCBB4A7B512CF39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6306EC70529863BF392C829F12FBA79E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07C2667D49A02619CD65974E00252FBC /* Pods-WJMarkAnimationView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FBABACE271A3B9D4F255339E3F22129C /* Info.plist */,
+				0C047CFC951AD3694C653021FD9F316D /* Pods-WJMarkAnimationView_Example.modulemap */,
+				92B8C6782318483608BE45B6A2B14FE9 /* Pods-WJMarkAnimationView_Example-acknowledgements.markdown */,
+				601A2B3FF05424AC13846AB5DF288498 /* Pods-WJMarkAnimationView_Example-acknowledgements.plist */,
+				18F01D8113F1F6B8EF718D3E8F2C8E15 /* Pods-WJMarkAnimationView_Example-dummy.m */,
+				120356A5F7298029B01295B44E23F60D /* Pods-WJMarkAnimationView_Example-frameworks.sh */,
+				4A39F7DDFB936C922A5C49F1F7AA595E /* Pods-WJMarkAnimationView_Example-resources.sh */,
+				1660A8EECB7B2B936BE881702CC2F8E5 /* Pods-WJMarkAnimationView_Example-umbrella.h */,
+				275029E701ECD8F41DBFADD3E9F35679 /* Pods-WJMarkAnimationView_Example.debug.xcconfig */,
+				D2B7BF20B718DA8AFAAE36B1AFFEA528 /* Pods-WJMarkAnimationView_Example.release.xcconfig */,
+			);
+			name = "Pods-WJMarkAnimationView_Example";
+			path = "Target Support Files/Pods-WJMarkAnimationView_Example";
+			sourceTree = "<group>";
+		};
+		09F00031D9658E81AAA35483F98A3197 /* WJMarkAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				2C4CAF65403837307EBA1349D40CEEA0 /* WJMarkAnimationView.h */,
+				96ECE3475678A20BACA086D5370A889E /* WJMarkAnimationView.m */,
+				FFCA04F3A8F15DA0048E36CD9836DBA6 /* Pod */,
+				505B6D45DC1AAEF354E4B4204E3441B4 /* Support Files */,
+			);
+			name = WJMarkAnimationView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		505B6D45DC1AAEF354E4B4204E3441B4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DB436DA5F9650B8C872D1FDE9D0BCFC /* Info.plist */,
+				F698CCBCD5E3BACB1374A42D88631557 /* WJMarkAnimationView.modulemap */,
+				33121B5684B0376044264933644B29F5 /* WJMarkAnimationView.xcconfig */,
+				4CF4C84500629CBFAE95EC770092FF84 /* WJMarkAnimationView-dummy.m */,
+				167B63BDA24C1C09489C3E4D10A0803C /* WJMarkAnimationView-prefix.pch */,
+				3F81CBB40E4202464D83AA57F2784511 /* WJMarkAnimationView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WJMarkAnimationView";
+			sourceTree = "<group>";
+		};
+		617F211B439D6102125D851DE411500F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09F00031D9658E81AAA35483F98A3197 /* WJMarkAnimationView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6D98849E01B29E83318C4AFA18835CAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B056EA8492283B612816D719C87F77FC /* Pods_WJMarkAnimationView_Example.framework */,
+				D80A758622DBA1C9592DFBB4F3FF3DBD /* Pods_WJMarkAnimationView_Tests.framework */,
+				8B8D9077DF59D6EDF0D6428D96AF78E8 /* WJMarkAnimationView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				617F211B439D6102125D851DE411500F /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				6D98849E01B29E83318C4AFA18835CAE /* Products */,
+				B45CF88BE91FED7BC5F556BED16A1265 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B45CF88BE91FED7BC5F556BED16A1265 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07C2667D49A02619CD65974E00252FBC /* Pods-WJMarkAnimationView_Example */,
+				BE640A42E97F36912F10E6EA4F549753 /* Pods-WJMarkAnimationView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BE640A42E97F36912F10E6EA4F549753 /* Pods-WJMarkAnimationView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F613853C68953E7DCA2626AEFB2134B9 /* Info.plist */,
+				D250238073D13C1F0B601171574893FE /* Pods-WJMarkAnimationView_Tests.modulemap */,
+				07A0EFE193F9716EABF43E5D725B4F4B /* Pods-WJMarkAnimationView_Tests-acknowledgements.markdown */,
+				4DDD4081361C75106CF37A3CC23DD225 /* Pods-WJMarkAnimationView_Tests-acknowledgements.plist */,
+				8420DF9404B3D03E36C7D637467ECA5C /* Pods-WJMarkAnimationView_Tests-dummy.m */,
+				BA0487A054B81F4CB06D1A10A3194AD9 /* Pods-WJMarkAnimationView_Tests-frameworks.sh */,
+				FFC094876F8E0AB9AC8342D6E6DD70FB /* Pods-WJMarkAnimationView_Tests-resources.sh */,
+				9BADEA5073EFB80FF50EEA6823D60C81 /* Pods-WJMarkAnimationView_Tests-umbrella.h */,
+				41CE101C3034966630BFD999B9FFDEBE /* Pods-WJMarkAnimationView_Tests.debug.xcconfig */,
+				E9B5BA92EBCFC9C5B1F6E1C174521EB2 /* Pods-WJMarkAnimationView_Tests.release.xcconfig */,
+			);
+			name = "Pods-WJMarkAnimationView_Tests";
+			path = "Target Support Files/Pods-WJMarkAnimationView_Tests";
+			sourceTree = "<group>";
+		};
+		FFCA04F3A8F15DA0048E36CD9836DBA6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E6F1A322E4CC2550148D6B9A28E4653C /* LICENSE */,
+				CAC0E0D059E2515666A5034A532B4FCC /* README.md */,
+				4F29C24FD0F851C2D55C55F16CBBA969 /* WJMarkAnimationView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5EF6AA7110E1813B16C6BAA5713A0655 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE41D426047AF3FDCBE23DB68E7D64D /* Pods-WJMarkAnimationView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8792A7E2517D92CF9880DE093EDEDAB8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA95436DF47EBA423593ECA11A19B589 /* Pods-WJMarkAnimationView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26944D640E61A63E07AA0A668BEA3B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305FAEEC886374209AA97A7E9528C234 /* WJMarkAnimationView-umbrella.h in Headers */,
+				54ECFC9ACB330DDF70EDDF9937652657 /* WJMarkAnimationView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3E3DEE6404D13BB2318D39A20CA58B2F /* Pods-WJMarkAnimationView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3655BAA5E56855B87F1499A842BCE9FB /* Build configuration list for PBXNativeTarget "Pods-WJMarkAnimationView_Example" */;
+			buildPhases = (
+				8792A7E2517D92CF9880DE093EDEDAB8 /* Headers */,
+				0AA8D5D55D45677A7A95EA38B3F2C7DE /* Sources */,
+				4C99706CCFCD1E4FAFCBB4A7B512CF39 /* Frameworks */,
+				98FC9233B5E1AFBAB133B2C1D33270E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8E4CD3FFE9962D1D920DB24EA1E7475 /* PBXTargetDependency */,
+			);
+			name = "Pods-WJMarkAnimationView_Example";
+			productName = "Pods-WJMarkAnimationView_Example";
+			productReference = B056EA8492283B612816D719C87F77FC /* Pods_WJMarkAnimationView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4987EFB85BAEEB091C681845DAF89A01 /* Pods-WJMarkAnimationView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49F8DEF25912AE7E59996AE1618D09B /* Build configuration list for PBXNativeTarget "Pods-WJMarkAnimationView_Tests" */;
+			buildPhases = (
+				5EF6AA7110E1813B16C6BAA5713A0655 /* Headers */,
+				0780E812AFD4907139ADD4A911892AA5 /* Sources */,
+				036593578066EACD7F73BB438B52192C /* Frameworks */,
+				A4D548DD91A1C4594FE38A58DEE11EE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A695C8970A4F7C40F340F042BA90C567 /* PBXTargetDependency */,
+			);
+			name = "Pods-WJMarkAnimationView_Tests";
+			productName = "Pods-WJMarkAnimationView_Tests";
+			productReference = D80A758622DBA1C9592DFBB4F3FF3DBD /* Pods_WJMarkAnimationView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		969EC6B7128ABD296008F69A1C6F8A9D /* WJMarkAnimationView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF591EA50F696B098C7ECBDBCF424A11 /* Build configuration list for PBXNativeTarget "WJMarkAnimationView" */;
+			buildPhases = (
+				A26944D640E61A63E07AA0A668BEA3B2 /* Headers */,
+				2DFC62A175CFD9CA136C2934A4D81852 /* Sources */,
+				27B574E2D3ED280C37C6489EA617A858 /* Frameworks */,
+				8222A3433C06EFFBED3C39837DC9EF7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJMarkAnimationView;
+			productName = WJMarkAnimationView;
+			productReference = 8B8D9077DF59D6EDF0D6428D96AF78E8 /* WJMarkAnimationView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6D98849E01B29E83318C4AFA18835CAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E3DEE6404D13BB2318D39A20CA58B2F /* Pods-WJMarkAnimationView_Example */,
+				4987EFB85BAEEB091C681845DAF89A01 /* Pods-WJMarkAnimationView_Tests */,
+				969EC6B7128ABD296008F69A1C6F8A9D /* WJMarkAnimationView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8222A3433C06EFFBED3C39837DC9EF7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FC9233B5E1AFBAB133B2C1D33270E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D548DD91A1C4594FE38A58DEE11EE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0780E812AFD4907139ADD4A911892AA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A66D7DA7E885DBF9A7EDB29F6C79E5 /* Pods-WJMarkAnimationView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA8D5D55D45677A7A95EA38B3F2C7DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57301D7DD9D00C0C4A737971ADAAA6EE /* Pods-WJMarkAnimationView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFC62A175CFD9CA136C2934A4D81852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EFD0648614C7670B06753A8A2B4A2F /* WJMarkAnimationView-dummy.m in Sources */,
+				61B18DB85E5551B095C164C2536A8BDC /* WJMarkAnimationView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A695C8970A4F7C40F340F042BA90C567 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WJMarkAnimationView_Example";
+			target = 3E3DEE6404D13BB2318D39A20CA58B2F /* Pods-WJMarkAnimationView_Example */;
+			targetProxy = 3A1BB131AD12E8E3282EAD7883273D75 /* PBXContainerItemProxy */;
+		};
+		A8E4CD3FFE9962D1D920DB24EA1E7475 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WJMarkAnimationView;
+			target = 969EC6B7128ABD296008F69A1C6F8A9D /* WJMarkAnimationView */;
+			targetProxy = 38716AFB50CF2C3EC5BE4AC5E47702DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B4D2F8B7BC273146D5E53F9D91007C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 275029E701ECD8F41DBFADD3E9F35679 /* Pods-WJMarkAnimationView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WJMarkAnimationView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WJMarkAnimationView_Example/Pods-WJMarkAnimationView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8871361E794F124281310379208A4BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2B7BF20B718DA8AFAAE36B1AFFEA528 /* Pods-WJMarkAnimationView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WJMarkAnimationView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WJMarkAnimationView_Example/Pods-WJMarkAnimationView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89F01B51F4395ED346ED189588EF55B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9B5BA92EBCFC9C5B1F6E1C174521EB2 /* Pods-WJMarkAnimationView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WJMarkAnimationView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WJMarkAnimationView_Tests/Pods-WJMarkAnimationView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C3A83ACD8A5F05D425BC009A4A65AD1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33121B5684B0376044264933644B29F5 /* WJMarkAnimationView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WJMarkAnimationView/WJMarkAnimationView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WJMarkAnimationView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WJMarkAnimationView/WJMarkAnimationView.modulemap";
+				PRODUCT_MODULE_NAME = WJMarkAnimationView;
+				PRODUCT_NAME = WJMarkAnimationView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D95C7D7AAB4A86AC9DADAF11AA97C1D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41CE101C3034966630BFD999B9FFDEBE /* Pods-WJMarkAnimationView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WJMarkAnimationView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WJMarkAnimationView_Tests/Pods-WJMarkAnimationView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E02BF8FDB6D4EBB337A360B35B4B3151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33121B5684B0376044264933644B29F5 /* WJMarkAnimationView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WJMarkAnimationView/WJMarkAnimationView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WJMarkAnimationView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WJMarkAnimationView/WJMarkAnimationView.modulemap";
+				PRODUCT_MODULE_NAME = WJMarkAnimationView;
+				PRODUCT_NAME = WJMarkAnimationView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3655BAA5E56855B87F1499A842BCE9FB /* Build configuration list for PBXNativeTarget "Pods-WJMarkAnimationView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4D2F8B7BC273146D5E53F9D91007C4 /* Debug */,
+				8871361E794F124281310379208A4BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF591EA50F696B098C7ECBDBCF424A11 /* Build configuration list for PBXNativeTarget "WJMarkAnimationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E02BF8FDB6D4EBB337A360B35B4B3151 /* Debug */,
+				C3A83ACD8A5F05D425BC009A4A65AD1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D49F8DEF25912AE7E59996AE1618D09B /* Build configuration list for PBXNativeTarget "Pods-WJMarkAnimationView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D95C7D7AAB4A86AC9DADAF11AA97C1D5 /* Debug */,
+				89F01B51F4395ED346ED189588EF55B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

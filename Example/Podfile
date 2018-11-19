@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'CLTickAnimationView_Example' do
-  pod 'CLTickAnimationView', :path => '../'
+target 'WJMarkAnimationView_Example' do
+  pod 'WJMarkAnimationView', :path => '../'
 
-  target 'CLTickAnimationView_Tests' do
+  target 'WJMarkAnimationView_Tests' do
     inherit! :search_paths
 
     
