@@ -30,6 +30,12 @@ WJMarkAnimationView is available under the MIT license. See the LICENSE file for
 
 <br></br>
 ---
+中文介绍
+===========
 WJMarkAinmationView 是一个简单易用好看的打勾动画UI控件
 
-！[conv_ops](https://github.com/CoderLawrence/WJMarkAnimationView/master/Example/Snapshots/Snapshots.gif)
+！[conv_ops](https://github.com/CoderLawrence/WJMarkAnimationView/blob/master/Example/Snapshots/Snapshots.gif)
+
+演示项目
+===========
+查看并运行  `Example/WJMarkAnimationView.xcworkspace`
