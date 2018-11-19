@@ -28,11 +28,11 @@ static const CGFloat kMarkAniamtionViewHeight = kMarkAnimationViewWidth;
     WJMarkAnimationView *markView = [[WJMarkAnimationView alloc] initWithFrame:CGRectMake(CGRectGetMidX(self.view.frame) - kMarkAnimationViewWidth/2, 100, kMarkAnimationViewWidth, kMarkAniamtionViewHeight)];
     [self.view addSubview:markView];
     
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5.0f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [markView startAnimation];
     });
     
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(10.0f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(4.0f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [markView setStartColor:RGBA(0xa18cd1, 1)];
         [markView setEndColor:RGBA(0xfbc2eb, 1)];
         [markView setDirection:kMarkAnimationViewGradientDirectionTopToBottom];
